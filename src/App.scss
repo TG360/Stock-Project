@@ -1,0 +1,25 @@
+@import './custom.scss';
+
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Set minimum height to the full viewport height */
+  min-width: auto; /* Set minimum width to the full viewport width */
+  background-color: $background-color;
+  color: white;
+}
+
+.app-container{
+  margin-top: 76px;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
